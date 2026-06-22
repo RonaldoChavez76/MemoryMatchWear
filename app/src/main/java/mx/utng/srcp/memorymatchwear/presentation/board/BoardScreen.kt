@@ -80,10 +80,4 @@ fun BoardScreen(viewModel: MemoryViewModel = viewModel()) {
     }
 }
 
-@Composable
-fun VictoryScreen(state: GameState, onRestart: () -> Unit) {
-    // Stub para que compile, se implementará en el siguiente paso
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = androidx.compose.ui.Alignment.Center) {
-        Text("¡Ganaste! ${state.elapsedSeconds}s")
-    }
-}
+
